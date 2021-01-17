@@ -38,6 +38,8 @@ int main(){
 
 	string filename;
 
+	cout << "Simple encoding program by Intrigger\n";
+
 	cout << "Enter filname: ";
 
 	cin >> filename;
@@ -52,9 +54,7 @@ int main(){
 	while (!feof(inp)){
 		s.push_back(getc(inp));
 	}
-	
 	s.pop_back();
-	
 	unsigned char *bin = new unsigned char[s.size() * 8];
 	unsigned char *binOrigin = new unsigned char[s.size() * 8];
 
