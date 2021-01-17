@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\Intrigger\source\repos\sfml_project\sfml_project\Source.cpp(26,17): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+C:\Users\Intrigger\source\repos\sfml_project\sfml_project\Source.cpp(26,14): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+  Создание кода
+  45 of 139 functions (32.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  sfml_project.vcxproj -> C:\Users\Intrigger\source\repos\sfml_project\x64\Release\sfml_project.exe
