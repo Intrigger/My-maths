@@ -29,7 +29,6 @@ void binaryToDec(unsigned char &value, unsigned char* temp){
 		else value *= 2;
 		c++;
 	}
-
 }
 
 
@@ -55,9 +54,7 @@ int main(){
 	}
 	
 	s.pop_back();
-
-
-
+	
 	unsigned char *bin = new unsigned char[s.size() * 8];
 	unsigned char *binOrigin = new unsigned char[s.size() * 8];
 
@@ -72,9 +69,6 @@ int main(){
 			binOrigin[i * 8 + j] = temp[j];
 		}
 	}
-
-
-	
 
 	fclose(inp);
 
